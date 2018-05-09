@@ -5,7 +5,7 @@ Created on Tue Mar 27 18:43:27 2018
 @author: Xiaopeng
 """
 
-from skimage import io,color,data_dir
+from skimage import io, color, data_dir
 import matplotlib.pyplot as plt
 
 
@@ -107,16 +107,16 @@ while True:
     if choice =='1':    
         print('Contrast...\n')
         size = input('Input the contrast:\n')
-        contra(float(size),'C:\\Users\\Xiaopeng\\Desktop\\Picture\\coffee.jpg')
+        contra(float(size),'header.jpg')
     elif choice == '2':
         print('Lightness...\n')
         size = input('Input the lightness:\n')
-        light(float(size),'C:\\Users\\Xiaopeng\\Desktop\\Picture\\coffee.jpg')
+        light(float(size),'header.jpg')
        # light(float(size),data_dir+'\\chelsea.png')
     elif choice == '3':
         print('Saturation...')
         size = input('Input the saturation:\n')
-        satura(float(size),'C:\\Users\\Xiaopeng\\Desktop\\Picture\\coffee.jpg')
+        satura(float(size),'header.jpg')
       # satura(float(size),data_dir+'\\chelsea.png')
     elif choice =='4':
         break

@@ -13,6 +13,6 @@ def convert_gray(f):
     dst = transform.resize(gray,(256,256))
     return gray
 coll = io.ImageCollection(str,load_func=convert_gray)
-print(len(coll))
+print(len(coll))/Library/anaconda3/bin
 for i in range(len(coll)):
     io.imsave('C:\\Users\\Xiaopeng\\Desktop\\Picture2\\'+np.str(i)+'.jpg',coll[i])
